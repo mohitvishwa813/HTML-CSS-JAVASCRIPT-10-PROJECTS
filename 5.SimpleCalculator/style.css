@@ -1,0 +1,51 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+      font-family: 'Arial', sans-serif;
+    }
+    .main{
+    display:flex;
+      flex-direction:column;
+      justify-content:center;
+      align-items:center;
+      max-width:1000px;
+      margin:0 auto;
+      height:100vh;
+      gap:20px;
+      background-color:#808000;
+    }
+    .input{
+    display:flex;
+    flex-direction:column;
+      justify-content:center;
+      align-items:center;
+      gap:30px;
+      font-size:30px;
+    }
+    .input .num1{
+    font-size:30px;
+        padding:2px 14px;
+       border-radius:10px;
+    }
+    
+    .input .num2{
+    font-size:30px;
+      padding:2px 14px;
+        border-radius:10px;
+    }
+    #btn{
+    font-size:30px;
+    padding:10px 20px;
+      border-radius:30px;
+    }
+    #selectop{
+      font-size:20px;
+    padding:10px 20px;
+      border-radius:30px;
+    }
+    #btn1{
+    font-size:30px;
+    padding:10px 20px;
+      border-radius:30px;
+    }
